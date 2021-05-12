@@ -5,7 +5,7 @@ import { Header } from "./components/header/index"
 
 import { GlobalStyle } from "./global"
 
-
+Modal.setAppElement('#root')
 
 export function App() {
 
