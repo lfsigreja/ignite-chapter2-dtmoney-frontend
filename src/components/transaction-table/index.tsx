@@ -5,6 +5,9 @@ import { TransactionsContext } from "../../TransactionsContext";
 export function TransactionsTable() {
 
     const { transactions } = useContext(TransactionsContext);
+
+    // transactions.map(transaction => (
+    // console.log(transaction)))
     
     return (
         <Container>
